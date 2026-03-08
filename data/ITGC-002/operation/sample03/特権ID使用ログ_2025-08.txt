@@ -1,0 +1,104 @@
+# 特権ID使用ログ - 2025-08
+# システム: syslog形式
+# 出力日時: 2025-08-30 23:59:59
+
+2025-08-21 14:27:06 prod-app02 sudo: tanaka : TTY=pts/3 ; PWD=/home/tanaka ; USER=root ; COMMAND=/usr/bin/vi /etc/nginx/nginx.conf
+2025-08-14 09:59:52 prod-app01 sqlplus: oracle@PROD connected from 192.168.1.160
+2025-08-16 13:33:32 prod-app02 sudo: ito : TTY=pts/5 ; PWD=/home/ito ; USER=admin ; COMMAND=/usr/bin/systemctl status mysql
+2025-08-10 04:17:21 prod-app01 sqlplus: sa@PROD connected from 192.168.1.198
+2025-08-08 05:09:37 prod-app02 sqlplus: oracle@PROD connected from 192.168.1.106
+2025-08-04 02:17:00 prod-db02 sqlplus: sa@PROD connected from 192.168.1.199
+2025-08-17 18:41:35 prod-web01 sqlplus: sa@PROD connected from 192.168.1.127
+2025-08-30 02:04:49 prod-web01 sqlplus: oracle@PROD connected from 192.168.1.174
+2025-08-26 05:42:17 prod-app01 sqlplus: postgres@PROD connected from 192.168.1.200
+2025-08-29 07:43:57 prod-app02 sudo: tanaka : TTY=pts/3 ; PWD=/home/tanaka ; USER=admin ; COMMAND=/usr/bin/systemctl restart postgresql
+2025-08-15 06:37:26 prod-db02 sqlplus: sa@PROD connected from 192.168.1.200
+2025-08-25 07:09:43 prod-web01 sqlplus: oracle@PROD connected from 192.168.1.124
+2025-08-12 11:41:14 prod-app02 sudo: suzuki : TTY=pts/5 ; PWD=/home/suzuki ; USER=root ; COMMAND=/usr/bin/chmod 755 /opt/app/deploy.sh
+2025-08-11 13:34:52 prod-web01 sudo: suzuki : TTY=pts/0 ; PWD=/home/suzuki ; USER=admin ; COMMAND=/usr/bin/df -h
+2025-08-22 22:09:06 prod-app02 sqlplus: sa@PROD connected from 192.168.1.148
+2025-08-27 02:20:27 prod-app01 sqlplus: oracle@PROD connected from 192.168.1.106
+2025-08-04 09:26:26 prod-app01 sqlplus: postgres@PROD connected from 192.168.1.120
+2025-08-29 21:30:53 prod-app02 sqlplus: oracle@PROD connected from 192.168.1.104
+2025-08-05 17:15:01 prod-web01 sudo: yamada : TTY=pts/2 ; PWD=/home/yamada ; USER=root ; COMMAND=/usr/bin/chown postgres:postgres /var/lib/postgresql
+2025-08-04 21:38:58 prod-web01 sudo: suzuki : TTY=pts/3 ; PWD=/home/suzuki ; USER=admin ; COMMAND=/usr/bin/ps aux | grep java
+2025-08-20 01:38:34 prod-app01 sqlplus: sa@PROD connected from 192.168.1.145
+2025-08-23 17:54:23 prod-app02 sqlplus: postgres@PROD connected from 192.168.1.168
+2025-08-12 21:35:56 prod-db01 sqlplus: sa@PROD connected from 192.168.1.141
+2025-08-14 02:00:55 prod-app02 sqlplus: oracle@PROD connected from 192.168.1.138
+2025-08-26 18:48:09 prod-app02 sqlplus: oracle@PROD connected from 192.168.1.195
+2025-08-20 20:50:46 prod-app01 sudo: yamada : TTY=pts/4 ; PWD=/home/yamada ; USER=admin ; COMMAND=/usr/bin/journalctl -u postgresql
+2025-08-23 13:55:51 prod-db02 sqlplus: sa@PROD connected from 192.168.1.161
+2025-08-07 02:34:06 prod-app02 sudo: sato : TTY=pts/1 ; PWD=/home/sato ; USER=admin ; COMMAND=/usr/bin/chown postgres:postgres /var/lib/postgresql
+2025-08-03 07:46:07 prod-db01 sqlplus: oracle@PROD connected from 192.168.1.155
+2025-08-10 06:50:48 prod-db02 sudo: tanaka : TTY=pts/3 ; PWD=/home/tanaka ; USER=admin ; COMMAND=/usr/bin/systemctl restart nginx
+2025-08-24 03:53:56 prod-app02 sqlplus: postgres@PROD connected from 192.168.1.115
+2025-08-01 10:15:37 prod-app01 sudo: tanaka : TTY=pts/5 ; PWD=/home/tanaka ; USER=root ; COMMAND=/usr/bin/top
+2025-08-17 14:52:25 prod-app02 sqlplus: oracle@PROD connected from 192.168.1.160
+2025-08-18 03:02:42 prod-web01 sqlplus: sa@PROD connected from 192.168.1.193
+2025-08-28 19:25:34 prod-web01 sqlplus: sa@PROD connected from 192.168.1.109
+2025-08-27 14:21:34 prod-db01 sqlplus: oracle@PROD connected from 192.168.1.145
+2025-08-07 23:08:00 prod-web01 sqlplus: sa@PROD connected from 192.168.1.186
+2025-08-30 08:56:21 prod-db02 sudo: sato : TTY=pts/4 ; PWD=/home/sato ; USER=root ; COMMAND=/usr/bin/systemctl status mysql
+2025-08-07 15:26:13 prod-db02 sqlplus: oracle@PROD connected from 192.168.1.140
+2025-08-25 19:16:39 prod-db01 sudo: tanaka : TTY=pts/0 ; PWD=/home/tanaka ; USER=root ; COMMAND=/usr/bin/systemctl restart tomcat
+2025-08-30 23:10:17 prod-web01 sudo: sato : TTY=pts/3 ; PWD=/home/sato ; USER=root ; COMMAND=/usr/bin/systemctl restart tomcat
+2025-08-08 01:24:53 prod-db02 sqlplus: oracle@PROD connected from 192.168.1.130
+2025-08-06 00:58:06 prod-db01 sudo: sato : TTY=pts/5 ; PWD=/home/sato ; USER=admin ; COMMAND=/usr/bin/systemctl restart nginx
+2025-08-28 04:49:38 prod-web01 sqlplus: postgres@PROD connected from 192.168.1.104
+2025-08-09 10:39:11 prod-web01 sqlplus: oracle@PROD connected from 192.168.1.126
+2025-08-10 15:26:18 prod-app01 sudo: ito : TTY=pts/3 ; PWD=/home/ito ; USER=root ; COMMAND=/usr/bin/top
+2025-08-15 05:44:56 prod-db02 sqlplus: postgres@PROD connected from 192.168.1.140
+2025-08-10 09:15:53 prod-db02 sudo: yamada : TTY=pts/2 ; PWD=/home/yamada ; USER=admin ; COMMAND=/usr/bin/systemctl status mysql
+2025-08-12 05:35:06 prod-app01 sudo: sato : TTY=pts/1 ; PWD=/home/sato ; USER=admin ; COMMAND=/usr/bin/ps aux | grep java
+2025-08-17 10:46:37 prod-db02 sqlplus: sa@PROD connected from 192.168.1.155
+2025-08-27 09:44:22 prod-app02 sqlplus: oracle@PROD connected from 192.168.1.121
+2025-08-20 19:29:22 prod-app02 sudo: ito : TTY=pts/1 ; PWD=/home/ito ; USER=root ; COMMAND=/usr/bin/netstat -tulpn
+2025-08-05 02:38:31 prod-db01 sqlplus: postgres@PROD connected from 192.168.1.141
+2025-08-02 22:37:00 prod-web01 sudo: suzuki : TTY=pts/0 ; PWD=/home/suzuki ; USER=admin ; COMMAND=/usr/bin/ps aux | grep java
+2025-08-27 18:11:28 prod-db01 sqlplus: oracle@PROD connected from 192.168.1.139
+2025-08-23 19:39:48 prod-db02 sudo: yamada : TTY=pts/3 ; PWD=/home/yamada ; USER=root ; COMMAND=/usr/bin/journalctl -u postgresql
+2025-08-03 22:56:04 prod-db02 sqlplus: oracle@PROD connected from 192.168.1.200
+2025-08-08 13:03:01 prod-app01 sqlplus: postgres@PROD connected from 192.168.1.170
+2025-08-17 04:41:52 prod-db02 sqlplus: sa@PROD connected from 192.168.1.171
+2025-08-21 03:55:46 prod-app02 sqlplus: postgres@PROD connected from 192.168.1.137
+2025-08-20 17:23:54 prod-web01 sqlplus: oracle@PROD connected from 192.168.1.162
+2025-08-21 18:30:37 prod-db02 sqlplus: postgres@PROD connected from 192.168.1.127
+2025-08-06 10:47:06 prod-app01 sqlplus: sa@PROD connected from 192.168.1.119
+2025-08-01 12:09:04 prod-app01 sudo: yamada : TTY=pts/1 ; PWD=/home/yamada ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/syslog
+2025-08-26 02:48:26 prod-db01 sudo: yamada : TTY=pts/3 ; PWD=/home/yamada ; USER=root ; COMMAND=/usr/bin/systemctl status mysql
+2025-08-17 13:52:41 prod-app02 sqlplus: oracle@PROD connected from 192.168.1.166
+2025-08-25 07:20:34 prod-web01 sqlplus: postgres@PROD connected from 192.168.1.157
+2025-08-11 08:33:33 prod-app01 sqlplus: postgres@PROD connected from 192.168.1.141
+2025-08-05 18:49:34 prod-web01 sudo: suzuki : TTY=pts/2 ; PWD=/home/suzuki ; USER=admin ; COMMAND=/usr/bin/journalctl -u postgresql
+2025-08-22 03:31:59 prod-app01 sqlplus: postgres@PROD connected from 192.168.1.162
+2025-08-09 03:57:05 prod-db02 sudo: yamada : TTY=pts/3 ; PWD=/home/yamada ; USER=root ; COMMAND=/usr/bin/systemctl status mysql
+2025-08-11 01:47:40 prod-web01 sudo: yamada : TTY=pts/1 ; PWD=/home/yamada ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+2025-08-23 16:46:50 prod-db02 sqlplus: oracle@PROD connected from 192.168.1.135
+2025-08-06 19:35:09 prod-app01 sudo: suzuki : TTY=pts/2 ; PWD=/home/suzuki ; USER=admin ; COMMAND=/usr/bin/netstat -tulpn
+2025-08-03 20:33:02 prod-web01 sudo: sato : TTY=pts/2 ; PWD=/home/sato ; USER=admin ; COMMAND=/usr/bin/top
+2025-08-05 12:49:35 prod-web01 sqlplus: oracle@PROD connected from 192.168.1.177
+2025-08-29 00:42:01 prod-app02 sqlplus: sa@PROD connected from 192.168.1.139
+2025-08-22 23:50:40 prod-db01 sudo: yamada : TTY=pts/4 ; PWD=/home/yamada ; USER=root ; COMMAND=/usr/bin/chown postgres:postgres /var/lib/postgresql
+2025-08-23 17:14:54 prod-app01 sudo: tanaka : TTY=pts/1 ; PWD=/home/tanaka ; USER=root ; COMMAND=/usr/bin/netstat -tulpn
+2025-08-29 11:15:01 prod-web01 sqlplus: postgres@PROD connected from 192.168.1.199
+2025-08-31 00:30:00 prod-db02 sudo: sato : TTY=pts/4 ; PWD=/home/sato ; USER=root ; COMMAND=/usr/bin/journalctl -u postgresql
+2025-08-09 00:49:17 prod-db01 sqlplus: sa@PROD connected from 192.168.1.187
+2025-08-29 07:17:28 prod-web01 sqlplus: postgres@PROD connected from 192.168.1.152
+2025-08-31 07:19:51 prod-app01 sudo: suzuki : TTY=pts/3 ; PWD=/home/suzuki ; USER=root ; COMMAND=/usr/bin/chmod 755 /opt/app/deploy.sh
+2025-08-05 08:48:54 prod-app01 sqlplus: oracle@PROD connected from 192.168.1.200
+2025-08-16 02:00:14 prod-db02 sudo: sato : TTY=pts/0 ; PWD=/home/sato ; USER=root ; COMMAND=/usr/bin/df -h
+2025-08-10 11:12:35 prod-app02 sudo: suzuki : TTY=pts/1 ; PWD=/home/suzuki ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/syslog
+2025-08-25 01:40:49 prod-db01 sudo: yamada : TTY=pts/3 ; PWD=/home/yamada ; USER=admin ; COMMAND=/usr/bin/systemctl status mysql
+2025-08-16 16:31:23 prod-web01 sqlplus: oracle@PROD connected from 192.168.1.129
+2025-08-13 11:24:25 prod-db02 sudo: ito : TTY=pts/2 ; PWD=/home/ito ; USER=admin ; COMMAND=/usr/bin/systemctl restart postgresql
+2025-08-06 01:32:43 prod-web01 sudo: sato : TTY=pts/3 ; PWD=/home/sato ; USER=admin ; COMMAND=/usr/bin/df -h
+2025-08-06 07:43:47 prod-app02 sudo: ito : TTY=pts/1 ; PWD=/home/ito ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+2025-08-29 17:37:58 prod-web01 sqlplus: oracle@PROD connected from 192.168.1.186
+2025-08-08 01:29:34 prod-app01 sudo: sato : TTY=pts/5 ; PWD=/home/sato ; USER=admin ; COMMAND=/usr/bin/systemctl restart nginx
+2025-08-08 06:36:00 prod-db01 sudo: ito : TTY=pts/3 ; PWD=/home/ito ; USER=root ; COMMAND=/usr/bin/chmod 755 /opt/app/deploy.sh
+2025-08-19 16:28:39 prod-app02 sudo: yamada : TTY=pts/3 ; PWD=/home/yamada ; USER=admin ; COMMAND=/usr/bin/chown postgres:postgres /var/lib/postgresql
+2025-08-22 09:39:31 prod-db01 sudo: sato : TTY=pts/5 ; PWD=/home/sato ; USER=root ; COMMAND=/usr/bin/chown postgres:postgres /var/lib/postgresql
+2025-08-30 07:22:27 prod-app01 sqlplus: postgres@PROD connected from 192.168.1.130
+2025-08-10 07:05:56 prod-app01 sqlplus: sa@PROD connected from 192.168.1.175
+2025-08-06 05:43:09 prod-app02 sqlplus: oracle@PROD connected from 192.168.1.112
